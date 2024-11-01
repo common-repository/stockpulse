@@ -1,0 +1,73 @@
+/*
+* Global Styles
+*/
+
+#stockpulse .color-stockpulse {
+    color: #aacb38;
+}
+#stockpulse .btn-stockpulse {
+    color: #fff;
+    background-color: #aacb38;
+    background-image: none;
+    border-color: #aacb38;
+}
+#stockpulse .btn-stockpulse:hover {
+    color: #fff;
+    background-color: #99b732;
+    border-color: #99b732;
+}
+#stockpulse .btn-stockpulse.focus, .btn-stockpulse:focus {
+    outline: 0;
+    box-shadow: unset;
+}
+#stockpulse .btn-outline-stockpulse {
+    color: #aacb38;
+    background-color: transparent;
+    background-image: none;
+    border-color: #aacb38;
+}
+#stockpulse .btn-outline-stockpulse:hover {
+    color: #fff;
+    background-color: #aacb38;
+    border-color: #aacb38;
+}
+#stockpulse .btn-outline-stockpulse.focus, .btn-outline-stockpulse:focus {
+    outline: 0;
+    box-shadow: unset;
+}
+#stockpulse .btn-outline-stockpulse.active {
+    color: #fff;
+    background-color: #aacb38;
+    background-image: none;
+    border-color: #aacb38;
+}
+
+/*
+* Tab Styles
+*/
+
+#stockpulse .tab-content > .tab-pane {
+	float: left;
+	display: none;
+	width: 100%;
+}
+
+#stockpulse .tab-content > .tab-pane.active {
+	display: block;
+	padding: 10px;
+	background-color: #ffffff;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+/*
+* Widget Example Styles
+*/
+#stockpulse .sp-widget {
+	display: inline-block;
+	margin: 10px;
+	padding: 20px;
+	border: solid #000000 1px;
+	vertical-align: text-top;
+}

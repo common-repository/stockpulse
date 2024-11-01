@@ -1,0 +1,55 @@
+.stockpulse-quotemini {
+	display: block;
+	font-weight: bold;
+	text-align: right;
+}
+.stockpulse-quotemini .ticker {
+	display: block;
+	font-size: 1em;
+	line-height: 1.4em;
+}
+.stockpulse-quotemini .price {
+	display: block;
+	font-size: 2em;
+	line-height: 1em;
+}
+.stockpulse-quotemini .change {
+	display: block;
+	font-size: 0.9em;
+	line-height: 1.4em;
+}
+
+.stockpulse-quotehead {
+	display: block;
+	text-align: left;
+}
+.stockpulse-quotehead .name {
+	display: block;
+	line-height: 1.4em;
+}
+.stockpulse-quotehead .price {
+	display: block;
+	font-size: 2em;
+	line-height: 1em;
+}
+.stockpulse-quotehead .detail {
+	display: block;
+	line-height: 1.4em;
+}
+.stockpulse-quotehead .change {
+	font-size: 0.8em;
+}
+
+.stockpulse-quoteinline .change {
+	font-size: 0.8em;
+}
+
+.change {
+	color: #8b8b8b;
+}
+.change.positive {
+	color:#36b100;
+}
+.change.negative {
+	color:#e80000;
+}
